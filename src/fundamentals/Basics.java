@@ -1,4 +1,4 @@
-package com.sai;
+package fundamentals;
 
 public class Basics {
     public static void main(String[] args) {

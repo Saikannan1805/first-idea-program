@@ -1,4 +1,4 @@
-package com.sai;
+package fundamentals;
 
 import java.util.Scanner;
 

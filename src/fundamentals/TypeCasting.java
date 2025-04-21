@@ -1,4 +1,4 @@
-package com.sai;
+package fundamentals;
 
 import java.lang.reflect.Type;
 import java.util.Scanner;
