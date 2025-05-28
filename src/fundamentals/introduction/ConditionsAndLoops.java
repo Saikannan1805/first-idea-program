@@ -1,6 +1,4 @@
-package fundamentals;
-
-import java.util.Scanner;
+package fundamentals.introduction;
 
 public class ConditionsAndLoops {
     public static void main(String[] args) {

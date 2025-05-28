@@ -1,6 +1,5 @@
-package fundamentals;
+package fundamentals.introduction;
 
-import java.lang.reflect.Type;
 import java.util.Scanner;
 
 public class TypeCasting {
