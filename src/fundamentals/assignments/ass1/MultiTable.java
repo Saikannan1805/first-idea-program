@@ -12,7 +12,7 @@ public class MultiTable {
         int values = input.nextInt();
         for (int a = 1 ; a <= values ; a++) {
             int result = number * a ;
-            System.out.println(number + "*" + a + "=" + result);
+            System.out.println(number + " * " + a + " = " + result);
         }
     }
 }
