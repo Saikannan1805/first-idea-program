@@ -1,4 +1,4 @@
-package fundamentals.introduction;
+package fundamentals.introduction1;
 
 public class Basics {
     public static void main(String[] args) {

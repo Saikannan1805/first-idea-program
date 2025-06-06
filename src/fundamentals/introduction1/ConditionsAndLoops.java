@@ -1,4 +1,4 @@
-package fundamentals.introduction;
+package fundamentals.introduction1;
 
 public class ConditionsAndLoops {
     public static void main(String[] args) {
