@@ -5,29 +5,31 @@ import java.util.Scanner;
 public class ArmstrongNumber {
     public static void main(String[] args) {
         // 9. To find Armstrong Number between two given number.
-        // Didn't Do
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter start and end numbers: ");
-        int start = input.nextInt();
-        int end = input.nextInt();
+        int num = input.nextInt();
+        System.out.println(isArmstrong(num));
 
-        System.out.println("Armstrong numbers between " + start + " and " + end + ":");
+    }
 
-        for (int num = start; num <= end; num++) {
-            int original = num;
-            int sum = 0;
-            int digits = String.valueOf(num).length();
+    static boolean isArmstrong(int n) {
+        int original = n;
+        int sum = 0;
 
-            int temp = num;
-            while (temp != 0) {
-                int digit = temp % 10;
-                sum += Math.pow(digit, digits);
-                temp /= 10;
-            }
-
-            if (sum == original) {
-                System.out.println(num);
-            }
+        while (n>0) {
+            int rem = n % 10;
+            sum = sum + (int)Math.pow(rem,digitCheck(original)) ;
+            n = n/10;
         }
+
+        return sum == original;
+
+    }
+
+    static int digitCheck (int number) {
+        int digit = 1;
+        for (int n=number; n>9 ; n=n/10) {
+            digit++;
+        }
+        return digit;
     }
 }
