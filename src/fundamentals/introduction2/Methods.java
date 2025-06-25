@@ -13,7 +13,7 @@ public class Methods {
 //        System.out.println("Hello , "+ greet() );
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter favourite colo2r: ");
+        System.out.print("Enter favourite color: ");
         String favColor = input.next();
         String personalised = myGreet("Saikannan" , 23 , favColor);
         System.out.println(personalised);
