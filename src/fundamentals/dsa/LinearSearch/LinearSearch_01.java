@@ -6,8 +6,8 @@ public class LinearSearch_01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int[] marks = { 12, 34, 54, -32, 222, -59 , 345 , 43,2,56 , 677, 22 , -34 , -56 ,-221};
-        int target = 22;
-        int answer = linearSearch1(marks , target);
+        int target = 54;
+        int answer = linearSearch2(marks , target);
         System.out.println(answer);
     }
 
